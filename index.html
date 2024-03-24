@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atta Ur Rehman - Developer Portfolio</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="resources/style.css">
+  <body>
+    <header>
+      <nav>
+        <div class="left">Atta's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I am <span class="purple">Atta Ur Rehman</span>
+          <div>and I am a passionate <span id="element"></span></div>
+        </div>
+        <div class="rightSection">
+          <img src="resources/profile.jpeg" alt="image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="horizontal-line">
+          <div class="vertical-line">
+            <img src="resources/python_logo.png" alt="" />
+            <div class="vertical-title">Python Developer</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur maiores sequi quia repudiandae, odit incidunt. Quasi
+              nesciunt consequuntur laudantium, officia illum at.
+            </div>
+          </div>
+          <div class="vertical-line">
+            <img src="resources/html_logo.jpeg" alt="" />
+            <div class="vertical-title">HTML Developer</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur maiores sequi quia repudiandae, odit incidunt. Quasi
+              nesciunt consequuntur laudantium, officia illum at.
+            </div>
+          </div>
+          <div class="vertical-line">
+            <img src="resources/css_logo.png" alt="" />
+            <div class="vertical-title">CSS Developer</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur maiores sequi quia repudiandae, odit incidunt. Quasi
+              nesciunt consequuntur laudantium, officia illum at.
+            </div>
+          </div>
+          <div class="vertical-line">
+            <img src="resources/data_management.jpeg" alt="" />
+            <div class="vertical-title">Data Manager</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur maiores sequi quia repudiandae, odit incidunt. Quasi
+              nesciunt consequuntur laudantium, officia illum at.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first-footer">
+          <h4>AttaUrRehman's Developer Portfolio</h4>
+        </div>
+        <div class="second-footer">
+          <ul>
+            <li><a href="https://github.com/AttaUrRehman1278">GitHub</a></li>
+            <li><a href="https://web.facebook.com/badar.je.77">Linkedin</a></li>
+            <li><a href="https://web.facebook.com/badar.je.77">Facebook</a></li>
+          </ul>
+        </div>
+        <div class="third-footer"></div>
+        <div class="fourth-footer"></div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Mathematician",
+          "Data Manager",
+          "Python Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
